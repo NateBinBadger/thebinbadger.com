@@ -1,2 +1,1 @@
-# thebinbadger.com
-Wesbite
+
