@@ -9,21 +9,21 @@
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:Georgia,serif;background:#fff;color:#1a1a1a;}
 a{text-decoration:none;color:inherit;}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;border-bottom:0.5px solid #e5e7eb;background:#fff;}
-.nav-logo{display:flex;align-items:center;gap:10px;}
-.nav-logo img{width:44px;height:44px;border-radius:50%;object-fit:cover;}
-.nav-logo-text{font-size:17px;font-weight:600;color:#1a1a1a;}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;background:#04342C;border-bottom:none;}
+.nav-logo{display:flex;align-items:center;gap:12px;}
+.nav-logo img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid #1D9E75;background:#fff;}
+.nav-logo-text{font-size:17px;font-weight:600;color:#fff;}
 .nav-cta{background:#1D9E75;color:#fff;border:none;padding:9px 20px;border-radius:8px;font-size:14px;cursor:pointer;font-family:sans-serif;}
-.hero{padding:4rem 2rem 3rem;background:#E1F5EE;text-align:center;}
-.pill{display:inline-block;background:#9FE1CB;color:#085041;font-size:12px;padding:4px 14px;border-radius:20px;margin-bottom:1rem;font-family:sans-serif;}
-.hero h1{font-size:38px;font-weight:700;color:#04342C;line-height:1.15;margin-bottom:0.5rem;}
-.hero .sub{font-size:17px;color:#0F6E56;max-width:520px;margin:0 auto 0.5rem;line-height:1.7;font-family:sans-serif;}
-.hero .sub2{font-size:14px;color:#1D9E75;margin-bottom:2rem;font-family:sans-serif;}
+.hero{padding:3rem 2rem 4rem;background:#04342C;text-align:center;}
+.pill{display:inline-block;background:#0F6E56;color:#9FE1CB;font-size:12px;padding:4px 14px;border-radius:20px;margin-bottom:1rem;font-family:sans-serif;}
+.hero h1{font-size:38px;font-weight:700;color:#fff;line-height:1.15;margin-bottom:0.5rem;}
+.hero .sub{font-size:17px;color:#9FE1CB;max-width:520px;margin:0 auto 0.5rem;line-height:1.7;font-family:sans-serif;}
+.hero .sub2{font-size:14px;color:#5DCAA5;margin-bottom:2rem;font-family:sans-serif;}
 .hbtns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
 .btn-p{background:#1D9E75;color:#fff;border:none;padding:13px 30px;border-radius:8px;font-size:15px;cursor:pointer;font-family:sans-serif;}
-.btn-s{background:transparent;color:#0F6E56;border:1.5px solid #1D9E75;padding:13px 30px;border-radius:8px;font-size:15px;cursor:pointer;font-family:sans-serif;}
+.btn-s{background:transparent;color:#9FE1CB;border:1.5px solid #1D9E75;padding:13px 30px;border-radius:8px;font-size:15px;cursor:pointer;font-family:sans-serif;}
 .hero-logo-wrap{display:flex;justify-content:center;margin-top:2.5rem;}
-.hero-logo-wrap img{width:200px;height:200px;object-fit:contain;}
+.hero-logo-wrap img{width:220px;height:220px;object-fit:contain;background:#fff;border-radius:50%;padding:8px;border:3px solid #1D9E75;}
 .roots{padding:1.5rem 2rem;background:#04342C;text-align:center;}
 .roots p{font-size:14px;color:#9FE1CB;max-width:600px;margin:0 auto;line-height:1.7;font-family:sans-serif;}
 .roots strong{color:#E1F5EE;font-weight:500;}
@@ -127,6 +127,7 @@ a{text-decoration:none;color:inherit;}
 <section class="price-section">
   <h2 class="sec-title">Simple, Honest Pricing</h2>
   <p class="sec-sub">Start with a site visit. Pick the plan that fits.</p>
+  <p style="text-align:center;font-size:12px;color:#9ca3af;margin-top:-1.5rem;margin-bottom:2rem;font-family:sans-serif;">All plans billed monthly. Cancel anytime.</p>
   <div class="price-tabs">
     <button class="ptab active" onclick="showTab('residents',this)">Residents</button>
     <button class="ptab" onclick="showTab('landlord',this)">Landlords &amp; property managers</button>
