@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Book Your Site Visit — The Bin Badger</title>
+<title>Book Your Curb Assessment — The Bin Badger</title>
 <script>
   function loadStripe(callback) {
     if (window.Stripe) { callback(); return; }
@@ -133,16 +133,16 @@
 </nav>
 
 <div class="hero-strip">
-  <span class="eyebrow">Book Your Site Visit</span>
+  <span class="eyebrow">Book Your Curb Assessment</span>
   <h1>Let's get your route set up.</h1>
-  <p>A Friendly Badger will visit your property, document everything, and get you ready for service — all for $5.</p>
+  <p>A quick 10-minute visit — we take a look at your setup, snap a couple photos, and we're out of your hair. No need to be home. All for $5.</p>
 </div>
 
 <div class="price-badge-wrap">
   <div class="price-badge">
     <div>
       <div class="amount">$5</div>
-      <div class="amount-label">one-time visit fee</div>
+      <div class="amount-label">one-time assessment fee</div>
     </div>
     <div class="divider"></div>
     <div class="credit-note"><strong>Fee credited back</strong> toward your first month of service. No commitment required.</div>
@@ -179,7 +179,7 @@
         </svg>
       </div>
       <h2>You're all set!</h2>
-      <p>Payment received. We'll be in touch within 24 hours to confirm your visit time. Check your email for a confirmation.</p>
+      <p>Payment received. We'll be in touch within 24 hours to confirm your assessment time. Check your email for a confirmation.</p>
       <a href="index.html" class="home-btn">Back to home</a>
     </div>
 
@@ -228,14 +228,14 @@
           <option value="" disabled selected>Select a plan (optional)</option>
           <option>Basic — $6/week (main pickup day)</option>
           <option>Premium — $8/week (both pickup days)</option>
-          <option>Landlord Basic — $5/unit/week</option>
-          <option>Landlord Premium — $8/unit/week</option>
+          <option>Landlord Basic — $4/unit/week</option>
+          <option>Landlord Premium — $6/unit/week</option>
           <option>Not sure yet</option>
         </select>
       </div>
       <div class="form-group">
         <label>Anything we should know?</label>
-        <textarea id="notes" placeholder="Gate codes, dogs, tricky access, number of bins, special instructions..."></textarea>
+        <textarea id="notes" placeholder="Gate codes, dogs, tricky access, number of trash cans, special instructions..."></textarea>
       </div>
       <button class="submit-btn" id="next-btn" onclick="goToPayment()">Continue to payment →</button>
       <p class="form-note"><a href="index.html">Back to home</a></p>
@@ -246,7 +246,7 @@
       <button class="back-btn" onclick="goToDetails()">← Back to details</button>
       <div class="form-section-title">Payment</div>
       <div class="payment-summary">
-        <p>Site visit for <strong id="summary-address">your property</strong></p>
+        <p>Curb assessment for <strong id="summary-address">your property</strong></p>
         <p>Booked for <strong id="summary-name">you</strong></p>
         <div class="total">$5.00</div>
       </div>
